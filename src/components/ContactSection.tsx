@@ -10,19 +10,17 @@ const ContactSection = () => {
       icon: Mail,
       title: "Email",
       value: "aditiya45@gmail.com",
-      link: "mailto:Adit.informatika@ui.ac.id"
+      link: ""
     },
     {
       icon: Phone,
       title: "Phone",
       value: "+62 856-0725-3375",
-      link: "tel:+6281234567890"
     },
     {
       icon: MapPin,
       title: "Location",
       value: "Jember, Indonesia",
-      link: "#"
     }
   ];
 
@@ -31,19 +29,16 @@ const ContactSection = () => {
       icon: Github,
       platform: "GitHub",
       username: "@Ragaluf",
-      url: "https://github.com/Adit-dev"
     },
     {
       icon: Linkedin,
       platform: "LinkedIn",
-      username: "Aditiya Rifky",
-      url: "https://linkedin.com/in/Adit-informatika"
+      username: "Aditiya Rifky"
     },
     {
       icon: Instagram,
       platform: "Instagram",
-      username: "@Aditya_rfky",
-      url: "https://instagram.com/Adit.codes"
+      username: "@Aditya_rfky"
     }
   ];
 
@@ -143,7 +138,6 @@ const ContactSection = () => {
                   return (
                     <a
                       key={index}
-                      href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-3 p-3 rounded-lg hover:bg-primary/10 transition-colors group"
